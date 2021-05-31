@@ -8,7 +8,12 @@ for (var i = 0; i < email.length; i++) {
     }
 }
 if (checkMail) {
-    document.getElementById("check-email").innerHTML = "Accesso Consentito";
+    alert("Accesso Consentito");
 } else {
-    document.getElementById("check-email").innerHTML = "Email Sbagliata";
+    alert ("Email Sbagliata");
 }
+
+// ------------ dadi
+num = Math.round(Math.random() * 5) + 1;
+document.getElementById("casuale").innerHTML ="Numero casuale " + num;
+
