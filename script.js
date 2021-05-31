@@ -1,13 +1,14 @@
 var userMail = prompt("Inserisci la tua email");
-var email = [ncesecredehotmail.com, xdpikkolettaxdyahoo.com, deborahcolaccayahoo.com];
-var checkmail = false;
+var email = ["ncesecrede@hotmail.com", "xdpikkolettaxd@yahoo.com", "deborahcolacca@yahoo.com"];
+var checkMail = false;
 
 for (var i = 0; i > email.length; i++;) {
-    if (email[i] === ncesecredehotmail.com) {
-        checkmail = true;
-        breack;
+    if (userMail[i] === email) {
+        checkMail = true;
     }
 }
-if (checkmail) {
+if (checkMail) {
     document.getElementById("check-email").innerHTML = "Accesso Consentito";
+} else {
+    document.getElementById("check-email").innerHTML = "Email Sbagliata"
 }
