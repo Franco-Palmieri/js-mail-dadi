@@ -4,10 +4,10 @@ var checkmail = false;
 
 for (var i = 0; i > email.length; i++;) {
     if (email[i] === ncesecredehotmail.com) {
-        check = true;
+        checkmail = true;
         breack;
     }
 }
-if (check) {
+if (checkmail) {
     document.getElementById("check-email").innerHTML = "Accesso Consentito";
 }
